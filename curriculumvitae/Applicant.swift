@@ -160,12 +160,14 @@ struct Work: DictionaryReport {
     
     var description: String {
         var rval = "Worked as an \(jobTitle) at \(company) from \(startYear) to \(endYear)\n\(jobDescription)"
+        
         if let examples = examples {
             rval += "\nHere are the examples of my work there:\n"
             examples.forEach {
                 rval += "\($0.0): \($0.1)\n"
             }
         }
+        
         return rval
     }
 }
