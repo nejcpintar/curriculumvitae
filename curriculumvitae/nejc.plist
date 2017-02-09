@@ -45,7 +45,7 @@
 			<key>jobDescription</key>
 			<string>I worked part-time and remotely for Thirdlove as their lead iOS developer. My work there consisted mainly of maintenance and development of their e-commerce iOS app and their bra sizing technology. I learned to work with Shopify, Parse, Facebook SDK and Fabric throughoutly while doing this project.</string>
 			<key>startYear</key>
-			<integer>2016</integer>
+			<real>2016</real>
 			<key>endYear</key>
 			<integer>2017</integer>
 		</dict>
@@ -60,6 +60,27 @@
 			<integer>2013</integer>
 			<key>endYear</key>
 			<integer>2016</integer>
+			<key>examples</key>
+			<array>
+				<dict>
+					<key>url</key>
+					<string>https://itunes.apple.com/us/app/toonia-colorbook-educational/id633956731?mt=8</string>
+					<key>title</key>
+					<string>Toonia Colorbook</string>
+				</dict>
+				<dict>
+					<key>url</key>
+					<string>https://itunes.apple.com/us/app/toonia-differences-find-hidden/id958179391?mt=8</string>
+					<key>title</key>
+					<string>Toonia Differences</string>
+				</dict>
+				<dict>
+					<key>url</key>
+					<string>https://itunes.apple.com/us/app/toonia-jelly-learn-about-colors/id777604525?mt=8</string>
+					<key>title</key>
+					<string>Toonia Jelly</string>
+				</dict>
+			</array>
 		</dict>
 		<dict>
 			<key>company</key>

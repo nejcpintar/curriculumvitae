@@ -117,6 +117,8 @@ struct Education: DictionaryReport {
     }
 }
 
+typealias WorkExample = (String, String)
+
 struct Work: DictionaryReport {
     enum WorkError: Error {
         case noCompanyTitle
@@ -124,6 +126,11 @@ struct Work: DictionaryReport {
         case noJobDescription
         case noStartYear
         case noEndYear
+        case noExamples
+    }
+    enum ExampleError: Error {
+        case noTitle
+        case noUrl
     }
     
     let company: String
@@ -131,6 +138,7 @@ struct Work: DictionaryReport {
     let jobDescription: String
     let startYear: Int
     let endYear: Int
+    let examples: [WorkExample]?
     
     init(dictionary: Dictionary<String, Any>) throws {
         company = try unwrap(from: dictionary, name: "company", error: WorkError.noCompanyTitle)
@@ -138,9 +146,26 @@ struct Work: DictionaryReport {
         jobDescription = try unwrap(from: dictionary, name: "jobDescription", error: WorkError.noJobDescription)
         startYear = try unwrap(from: dictionary, name: "startYear", error: WorkError.noStartYear)
         endYear = try unwrap(from: dictionary, name: "endYear", error: WorkError.noEndYear)
+        
+        do {
+            examples = try (unwrap(from: dictionary, name: "examples", error: WorkError.noExamples) as [[String: Any]]).map {
+                let title: String = try unwrap(from: $0, name: "title", error: ExampleError.noTitle)
+                let url: String = try unwrap(from: $0, name: "url", error: ExampleError.noUrl)
+                return (title, url)
+            }
+        } catch WorkError.noExamples {
+            examples = nil
+        }
     }
     
     var description: String {
-        return "Worked as an \(jobTitle) at \(company) from \(startYear) to \(endYear)\n\(jobDescription)"
+        var rval = "Worked as an \(jobTitle) at \(company) from \(startYear) to \(endYear)\n\(jobDescription)"
+        if let examples = examples {
+            rval += "\nHere are the examples of my work there:\n"
+            examples.forEach {
+                rval += "\($0.0): \($0.1)\n"
+            }
+        }
+        return rval
     }
 }
