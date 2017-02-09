@@ -2,7 +2,7 @@
 This is a program that outputs my CV
 
 #But, I just want to see your CV
-If you're a developer and have the latest XCode installed just clone and build the project. If you are not, here's a formatted copy of the output:
+If you're a developer, want to review my coding style and have the latest XCode installed, you can just clone and build the project. Otherwise, here's a formatted copy of the output:
 
 ##Nejc Pintar
 
