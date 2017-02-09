@@ -17,7 +17,7 @@ Studied program of Computer Science and IT at University Of Maribor from 2008 to
 I worked part-time and remotely for Thirdlove as their lead iOS developer. My work there consisted mainly of maintenance and development of their e-commerce iOS app and their bra sizing technology. I learned to work with Shopify, Parse, Facebook SDK and Fabric thoroughly while doing this project.
 
 ### Worked as an iOS Developer at Toonia from 2013 to 2016
-Working at Toonia has had the most influence on the way I think and work. Besides learning development for iOS, I also learned a lot about user experience, psychology and graphics. Most of the work there was about creating tailor-made, fluid user interfaces suitable for kids. We relied on vector graphics a lot, which also meant a lot of work on rendering engines and curve manipulation
+Working at Toonia has had the most influence on the way I think and work. Besides learning development for iOS, I also learned a lot about user experience, psychology and graphics. Most of the work there was about creating tailor-made, fluid user interfaces suitable for kids. We relied on vector graphics a lot, which also meant a lot of work on rendering engines and curve manipulation.
 Here are the examples of my work there:
 * Toonia Colorbook: https://itunes.apple.com/us/app/toonia-colorbook-educational/id633956731?mt=8
 * Toonia Differences: https://itunes.apple.com/us/app/toonia-differences-find-hidden/id958179391?mt=8
