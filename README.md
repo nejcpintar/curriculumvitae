@@ -10,6 +10,7 @@ I've been wanting to work with computers since I was a little kid. I've jumped i
 
 ##Education:
 Studied program of Technical Gymnasium at Technical School Center Kranj from 2004 to 2008
+
 Studied program of Computer Science and IT at University Of Maribor from 2008 to 2010 (non-graduate)
 
 ##Previous work:
