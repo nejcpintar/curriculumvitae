@@ -12,9 +12,9 @@
 	<array>
 		<dict>
 			<key>facility</key>
-			<string>Tehniški šolski center Kranj</string>
+			<string>Technical School Center Kranj</string>
 			<key>program</key>
-			<string>Tehniška gimnazija</string>
+			<string>Technical Gymnasium</string>
 			<key>graduated</key>
 			<true/>
 			<key>startYear</key>
@@ -24,9 +24,9 @@
 		</dict>
 		<dict>
 			<key>facility</key>
-			<string>Univerza v Mariboru: Fakulteta za elektrotehniko, računalništvo in informatiko</string>
+			<string>University Of Maribor</string>
 			<key>program</key>
-			<string>Računalništvo in informacijske tehnologije</string>
+			<string>Computer Science and IT</string>
 			<key>graduated</key>
 			<false/>
 			<key>startYear</key>
@@ -43,7 +43,7 @@
 			<key>jobTitle</key>
 			<string>iOS Developer</string>
 			<key>jobDescription</key>
-			<string>I worked part-time and remotely for Thirdlove as their lead iOS developer. My work there consisted mainly of maintenance and development of their e-commerce iOS app and their bra sizing technology. I learned to work with Shopify, Parse, Facebook SDK and Fabric throughoutly while doing this project.</string>
+			<string>I worked part-time and remotely for Thirdlove as their lead iOS developer. My work there consisted mainly of maintenance and development of their e-commerce iOS app and their bra sizing technology. I learned to work with Shopify, Parse, Facebook SDK and Fabric thoroughly while doing this project.</string>
 			<key>startYear</key>
 			<real>2016</real>
 			<key>endYear</key>

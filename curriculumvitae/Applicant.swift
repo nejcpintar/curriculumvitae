@@ -113,7 +113,7 @@ struct Education: DictionaryReport {
     }
     
     var description: String {
-        return "Studied \(program) at \(facility)\nfrom: \(startYear) to: \(endYear)\ngraduated: \(graduated)"
+        return "Studied program of \(program) at \(facility)\nfrom \(startYear) to \(endYear)\ngraduated: \(graduated)"
     }
 }
 
