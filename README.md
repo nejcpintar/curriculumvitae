@@ -1,7 +1,7 @@
 # What is this?
 This is a program that outputs my CV
 
-#But, how do I see it?
+#But, I just want to see your CV
 If you're a developer and have the latest XCode installed just clone and build the project. If you are not, here's a formatted copy of the output:
 
 ##Nejc Pintar
