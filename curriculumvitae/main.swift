@@ -8,5 +8,19 @@
 
 import Foundation
 
-print("Hello, World!")
+enum CVError: Error {
+    case fileNotFound
+}
 
+do {
+    guard let fileUrl = Bundle.main.url(forResource: "nejc", withExtension: "plist") else {
+        print("file not found")
+        throw CVError.fileNotFound
+    }
+    
+    let dictionary = NSDictionary(contentsOf: fileUrl) as! Dictionary<String, Any>
+    let applicant = try Applicant(dictionary: dictionary)
+    print(applicant)
+} catch {
+    print(error)
+}

@@ -8,23 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		A8AD9DAF1E4C8B850062DF73 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AD9DAE1E4C8B850062DF73 /* main.swift */; };
+		A8AD9DB61E4C8B9E0062DF73 /* Applicant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AD9DB51E4C8B9E0062DF73 /* Applicant.swift */; };
+		A8AD9DBC1E4CAFC60062DF73 /* nejc.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = A8AD9DB91E4CA02A0062DF73 /* nejc.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		A8AD9DA91E4C8B850062DF73 /* CopyFiles */ = {
+		A8AD9DBB1E4CAFBA0062DF73 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			dstPath = "";
+			dstSubfolderSpec = 7;
 			files = (
+				A8AD9DBC1E4CAFC60062DF73 /* nejc.plist in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A8AD9DAB1E4C8B850062DF73 /* curriculumvitae */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = curriculumvitae; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8AD9DAE1E4C8B850062DF73 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A8AD9DB51E4C8B9E0062DF73 /* Applicant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Applicant.swift; sourceTree = "<group>"; };
+		A8AD9DB91E4CA02A0062DF73 /* nejc.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = nejc.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				A8AD9DAE1E4C8B850062DF73 /* main.swift */,
+				A8AD9DB51E4C8B9E0062DF73 /* Applicant.swift */,
+				A8AD9DB91E4CA02A0062DF73 /* nejc.plist */,
 			);
 			path = curriculumvitae;
 			sourceTree = "<group>";
@@ -71,7 +78,7 @@
 			buildPhases = (
 				A8AD9DA71E4C8B850062DF73 /* Sources */,
 				A8AD9DA81E4C8B850062DF73 /* Frameworks */,
-				A8AD9DA91E4C8B850062DF73 /* CopyFiles */,
+				A8AD9DBB1E4CAFBA0062DF73 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -122,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8AD9DAF1E4C8B850062DF73 /* main.swift in Sources */,
+				A8AD9DB61E4C8B9E0062DF73 /* Applicant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
